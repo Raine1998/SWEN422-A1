@@ -1,0 +1,187 @@
+1.0241 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+7.7197 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([255, 255, 255]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fca86154a58>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fca8404c710>, multiSample=False, name='window1', numSamples=2, pos=[320.0, 200.0], screen=0, size=array([2560, 1600]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.7201 	EXP 	window1: mouseVisible = True
+7.7202 	EXP 	window1: recordFrameIntervals = False
+7.8855 	EXP 	window1: recordFrameIntervals = True
+8.0699 	EXP 	window1: recordFrameIntervals = False
+8.8708 	EXP 	Created WelcomeText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='WelcomeText', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.0421 	EXP 	Created target = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='target', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.2081 	EXP 	Created instructBar = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='instructBar', opacity=1, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.2316 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thank you! \nPress SPACE to close.\n', units='height', win=Window(...), wrapWidth=1)
+9.3992 	EXP 	WelcomeText: autoDraw = True
+10.6547 	EXP 	Imported arl-conditions.xlsx as conditions, 24 conditions, 4 params
+10.6557 	EXP 	Created sequence: random, trialTypes=24, nReps=1, seed=None
+10.6561 	EXP 	New trial (rep=0, index=0): {'word': 'green', 'colour': 'green', 'congruent': 1.0, 'correctAns': 'right'}
+10.6628 	DATA 	Keypress: space
+10.6740 	EXP 	WelcomeText: autoDraw = False
+10.6740 	EXP 	target: text = 'green'
+11.1554 	EXP 	target: autoDraw = True
+11.1554 	EXP 	instructBar: autoDraw = True
+12.1150 	EXP 	New trial (rep=0, index=1): {'word': 'green', 'colour': 'green', 'congruent': 1.0, 'correctAns': 'right'}
+12.1270 	DATA 	Keypress: right
+12.1383 	EXP 	target: autoDraw = False
+12.1383 	EXP 	instructBar: autoDraw = False
+12.1383 	EXP 	target: text = 'green'
+12.6049 	EXP 	target: autoDraw = True
+12.6049 	EXP 	instructBar: autoDraw = True
+12.9874 	DATA 	Keypress: right
+13.0030 	EXP 	New trial (rep=0, index=2): {'word': 'red', 'colour': 'blue', 'congruent': 0.0, 'correctAns': 'up'}
+13.0203 	EXP 	target: autoDraw = False
+13.0203 	EXP 	instructBar: autoDraw = False
+13.0203 	EXP 	target: text = 'red'
+13.5065 	EXP 	target: autoDraw = True
+13.5065 	EXP 	instructBar: autoDraw = True
+14.1990 	EXP 	New trial (rep=0, index=3): {'word': 'green', 'colour': 'green', 'congruent': 1.0, 'correctAns': 'right'}
+14.2058 	DATA 	Keypress: up
+14.2197 	EXP 	target: autoDraw = False
+14.2197 	EXP 	instructBar: autoDraw = False
+14.2197 	EXP 	target: text = 'green'
+14.7063 	EXP 	target: autoDraw = True
+14.7063 	EXP 	instructBar: autoDraw = True
+15.1817 	EXP 	New trial (rep=0, index=4): {'word': 'yellow', 'colour': 'yellow', 'congruent': 1.0, 'correctAns': 'down'}
+15.1886 	DATA 	Keypress: right
+15.2004 	EXP 	target: autoDraw = False
+15.2004 	EXP 	instructBar: autoDraw = False
+15.2004 	EXP 	target: text = 'yellow'
+15.6897 	EXP 	target: autoDraw = True
+15.6897 	EXP 	instructBar: autoDraw = True
+16.3029 	DATA 	Keypress: down
+16.3182 	EXP 	New trial (rep=0, index=5): {'word': 'red', 'colour': 'green', 'congruent': 0.0, 'correctAns': 'right'}
+16.3327 	EXP 	target: autoDraw = False
+16.3327 	EXP 	instructBar: autoDraw = False
+16.3327 	EXP 	target: text = 'red'
+16.8247 	EXP 	target: autoDraw = True
+16.8247 	EXP 	instructBar: autoDraw = True
+17.3803 	EXP 	New trial (rep=0, index=6): {'word': 'green', 'colour': 'yellow', 'congruent': 0.0, 'correctAns': 'down'}
+17.3865 	DATA 	Keypress: right
+17.3971 	EXP 	target: autoDraw = False
+17.3971 	EXP 	instructBar: autoDraw = False
+17.3971 	EXP 	target: text = 'green'
+17.8939 	EXP 	target: autoDraw = True
+17.8939 	EXP 	instructBar: autoDraw = True
+18.8479 	EXP 	New trial (rep=0, index=7): {'word': 'green', 'colour': 'blue', 'congruent': 0.0, 'correctAns': 'up'}
+18.8531 	DATA 	Keypress: down
+18.8637 	EXP 	target: autoDraw = False
+18.8637 	EXP 	instructBar: autoDraw = False
+18.8637 	EXP 	target: text = 'green'
+19.3422 	EXP 	target: autoDraw = True
+19.3422 	EXP 	instructBar: autoDraw = True
+20.1485 	EXP 	New trial (rep=0, index=8): {'word': 'yellow', 'colour': 'red', 'congruent': 0.0, 'correctAns': 'left'}
+20.1546 	DATA 	Keypress: up
+20.1651 	EXP 	target: autoDraw = False
+20.1651 	EXP 	instructBar: autoDraw = False
+20.1651 	EXP 	target: text = 'yellow'
+20.6604 	EXP 	target: autoDraw = True
+20.6604 	EXP 	instructBar: autoDraw = True
+22.4501 	EXP 	New trial (rep=0, index=9): {'word': 'yellow', 'colour': 'yellow', 'congruent': 1.0, 'correctAns': 'down'}
+22.4540 	DATA 	Keypress: left
+22.4648 	EXP 	target: autoDraw = False
+22.4648 	EXP 	instructBar: autoDraw = False
+22.4648 	EXP 	target: text = 'yellow'
+22.9434 	EXP 	target: autoDraw = True
+22.9434 	EXP 	instructBar: autoDraw = True
+24.8177 	EXP 	New trial (rep=0, index=10): {'word': 'blue', 'colour': 'blue', 'congruent': 1.0, 'correctAns': 'up'}
+24.8267 	DATA 	Keypress: down
+24.8398 	EXP 	target: autoDraw = False
+24.8398 	EXP 	instructBar: autoDraw = False
+24.8398 	EXP 	target: text = 'blue'
+25.3275 	EXP 	target: autoDraw = True
+25.3275 	EXP 	instructBar: autoDraw = True
+26.5836 	EXP 	New trial (rep=0, index=11): {'word': 'blue', 'colour': 'yellow', 'congruent': 0.0, 'correctAns': 'down'}
+26.5859 	DATA 	Keypress: up
+26.5990 	EXP 	target: autoDraw = False
+26.5990 	EXP 	instructBar: autoDraw = False
+26.5990 	EXP 	target: text = 'blue'
+27.0811 	EXP 	target: autoDraw = True
+27.0811 	EXP 	instructBar: autoDraw = True
+28.3848 	EXP 	New trial (rep=0, index=12): {'word': 'yellow', 'colour': 'blue', 'congruent': 0.0, 'correctAns': 'up'}
+28.3911 	DATA 	Keypress: down
+28.4017 	EXP 	target: autoDraw = False
+28.4017 	EXP 	instructBar: autoDraw = False
+28.4017 	EXP 	target: text = 'yellow'
+28.8962 	EXP 	target: autoDraw = True
+28.8962 	EXP 	instructBar: autoDraw = True
+29.8186 	EXP 	New trial (rep=0, index=13): {'word': 'green', 'colour': 'red', 'congruent': 0.0, 'correctAns': 'left'}
+29.8257 	DATA 	Keypress: up
+29.8363 	EXP 	target: autoDraw = False
+29.8363 	EXP 	instructBar: autoDraw = False
+29.8363 	EXP 	target: text = 'green'
+30.3304 	EXP 	target: autoDraw = True
+30.3304 	EXP 	instructBar: autoDraw = True
+30.9883 	EXP 	New trial (rep=0, index=14): {'word': 'red', 'colour': 'red', 'congruent': 1.0, 'correctAns': 'left'}
+30.9934 	DATA 	Keypress: right
+31.0044 	EXP 	target: autoDraw = False
+31.0044 	EXP 	instructBar: autoDraw = False
+31.0044 	EXP 	target: text = 'red'
+31.4974 	EXP 	target: autoDraw = True
+31.4974 	EXP 	instructBar: autoDraw = True
+32.1528 	EXP 	New trial (rep=0, index=15): {'word': 'yellow', 'colour': 'green', 'congruent': 0.0, 'correctAns': 'right'}
+32.1629 	DATA 	Keypress: right
+32.1755 	EXP 	target: autoDraw = False
+32.1755 	EXP 	instructBar: autoDraw = False
+32.1755 	EXP 	target: text = 'yellow'
+32.6649 	EXP 	target: autoDraw = True
+32.6649 	EXP 	instructBar: autoDraw = True
+34.1456 	DATA 	Keypress: right
+34.1607 	EXP 	New trial (rep=0, index=16): {'word': 'yellow', 'colour': 'yellow', 'congruent': 1.0, 'correctAns': 'down'}
+34.1732 	EXP 	target: autoDraw = False
+34.1732 	EXP 	instructBar: autoDraw = False
+34.1732 	EXP 	target: text = 'yellow'
+34.6660 	EXP 	target: autoDraw = True
+34.6660 	EXP 	instructBar: autoDraw = True
+35.7194 	EXP 	New trial (rep=0, index=17): {'word': 'red', 'colour': 'yellow', 'congruent': 0.0, 'correctAns': 'down'}
+35.7241 	DATA 	Keypress: down
+35.7362 	EXP 	target: autoDraw = False
+35.7362 	EXP 	instructBar: autoDraw = False
+35.7362 	EXP 	target: text = 'red'
+36.2171 	EXP 	target: autoDraw = True
+36.2171 	EXP 	instructBar: autoDraw = True
+36.8294 	DATA 	Keypress: down
+36.8437 	EXP 	New trial (rep=0, index=18): {'word': 'blue', 'colour': 'green', 'congruent': 0.0, 'correctAns': 'right'}
+36.8587 	EXP 	target: autoDraw = False
+36.8587 	EXP 	instructBar: autoDraw = False
+36.8587 	EXP 	target: text = 'blue'
+37.3515 	EXP 	target: autoDraw = True
+37.3515 	EXP 	instructBar: autoDraw = True
+38.1566 	EXP 	New trial (rep=0, index=19): {'word': 'red', 'colour': 'red', 'congruent': 1.0, 'correctAns': 'left'}
+38.1630 	DATA 	Keypress: right
+38.1737 	EXP 	target: autoDraw = False
+38.1737 	EXP 	instructBar: autoDraw = False
+38.1737 	EXP 	target: text = 'red'
+38.6680 	EXP 	target: autoDraw = True
+38.6680 	EXP 	instructBar: autoDraw = True
+39.7276 	EXP 	New trial (rep=0, index=20): {'word': 'blue', 'colour': 'red', 'congruent': 0.0, 'correctAns': 'left'}
+39.7316 	DATA 	Keypress: left
+39.7432 	EXP 	target: autoDraw = False
+39.7432 	EXP 	instructBar: autoDraw = False
+39.7432 	EXP 	target: text = 'blue'
+40.2370 	EXP 	target: autoDraw = True
+40.2370 	EXP 	instructBar: autoDraw = True
+40.8073 	EXP 	New trial (rep=0, index=21): {'word': 'blue', 'colour': 'blue', 'congruent': 1.0, 'correctAns': 'up'}
+40.8103 	DATA 	Keypress: left
+40.8222 	EXP 	target: autoDraw = False
+40.8222 	EXP 	instructBar: autoDraw = False
+40.8222 	EXP 	target: text = 'blue'
+41.3024 	EXP 	target: autoDraw = True
+41.3024 	EXP 	instructBar: autoDraw = True
+42.2755 	EXP 	New trial (rep=0, index=22): {'word': 'red', 'colour': 'red', 'congruent': 1.0, 'correctAns': 'left'}
+42.2820 	DATA 	Keypress: up
+42.2927 	EXP 	target: autoDraw = False
+42.2927 	EXP 	instructBar: autoDraw = False
+42.2927 	EXP 	target: text = 'red'
+42.7860 	EXP 	target: autoDraw = True
+42.7860 	EXP 	instructBar: autoDraw = True
+43.5437 	EXP 	New trial (rep=0, index=23): {'word': 'blue', 'colour': 'blue', 'congruent': 1.0, 'correctAns': 'up'}
+43.5497 	DATA 	Keypress: left
+43.5606 	EXP 	target: autoDraw = False
+43.5606 	EXP 	instructBar: autoDraw = False
+43.5606 	EXP 	target: text = 'blue'
+44.0540 	EXP 	target: autoDraw = True
+44.0540 	EXP 	instructBar: autoDraw = True
+44.6069 	DATA 	Keypress: up
+44.6202 	EXP 	target: autoDraw = False
+44.6202 	EXP 	instructBar: autoDraw = False
+44.6202 	EXP 	text: autoDraw = True
+45.5057 	DATA 	Keypress: space
+45.5199 	EXP 	text: autoDraw = False
+46.0662 	EXP 	window1: mouseVisible = True
